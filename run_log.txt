@@ -1,0 +1,1 @@
+[02.13 16:28:41] <match_img.return_coor_by_img:265>  [36mrec_confidence:  0.9764919877052307[0m
