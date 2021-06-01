@@ -8,13 +8,14 @@ cv2.Canny(image,            # 输入原图（必须为单通道图）
                               true： 使用更精确的L2范数进行计算（即两个方向的倒数的平方和再开放），
                               false：使用L1范数（直接将两个方向导数的绝对值相加）。
 """
-#可以识别出当前页面主要的轮廓
+#可以识别出当前页面主要的轮廓，能得到轮廓的特征向量
 #参考文章：
 # 1、OpenCV—python 边缘检测（Canny）：https://blog.csdn.net/wsp_1138886114/article/details/82935839
 
 import os
 import cv2
 import numpy as np
+
 
 root_path=os.path.abspath(os.path.join(os.getcwd(),".."))
 print("root_path:",root_path)
