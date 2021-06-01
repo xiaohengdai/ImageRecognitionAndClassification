@@ -13,7 +13,6 @@ cv2.Canny(image,            # 输入原图（必须为单通道图）
 # 1、OpenCV—python 边缘检测（Canny）：https://blog.csdn.net/wsp_1138886114/article/details/82935839
 
 import os
-
 import cv2
 import numpy as np
 
